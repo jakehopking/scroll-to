@@ -1,7 +1,7 @@
 import {log} from "./utils";
 
 export const scrollTo = function (window) {
-  // Check for browser supports, else return and allow default behaviour
+  // Check for browser support, else return and allow default behaviour
   if (typeof document.body.scrollIntoView !== "function") {
     return;
   }
